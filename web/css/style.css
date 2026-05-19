@@ -793,7 +793,7 @@ input::-webkit-search-cancel-button{
     /* guided tour */
     #guided_tour_top{
         display: grid;
-        grid-template-columns: 1fr 1fr 1.3fr;
+        grid-template-columns: 2fr 1fr 1fr;
         column-gap: 24px;
         align-items: start;
     }
