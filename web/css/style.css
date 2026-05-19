@@ -6,6 +6,10 @@ body{
     font-family: 'Inter', Arial, sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 ul{
     padding: 0;
 }
@@ -62,32 +66,32 @@ a:active{
     font-size: 14px;
 }
 #head{
-    min-width: 360px;
+    width: 100%;
     padding: 0 60px;
     margin: 0 0 20px 0;
     font-size: 18px;
     font-weight: bold;
 }
 #contenter{
-    min-width: 360px;
+    width: 100%;
     padding: 0 60px;
     margin: 0 0 20px 0;
     font-size: 18px;
 }
 #content{
-    min-width: 360px;
+    width: 100%;
     width: 100%;
     margin: 0 0 20px 0;
     font-size: 18px;
 }
 #guided_tour{
-    min-width: 360px;
+    width: 100%;
     width: 100%;
     margin: 0 0 20px 0;
     font-size: 18px;
 }
 #foot{
-    min-width: 360px;
+    width: 100%;
     margin: 0 0 10px 0;
     padding: 0 60px;
     font-size: 18px;
@@ -295,7 +299,7 @@ input::-webkit-search-cancel-button{
 .overlay_header{
     width: 100%;
     height: 40px;
-    margin: 0 60px;
+    margin: 0 20px;
     padding: 0 0 0 10px;
     position: relative;
     top: 10px;
@@ -682,6 +686,7 @@ input::-webkit-search-cancel-button{
 }
 
 @media(max-width: 991px){
+    
     /* menu */
     #menu{
         transform: translateX(15px) translateY(0px);
@@ -709,13 +714,14 @@ input::-webkit-search-cancel-button{
     /* title */
     #title{
         margin: 0;
+        gap: 20px;
         justify-content: space-between;
     }
 
     /* right column */
     .right_column{
         flex: none;
-        gap: 40px;
+        gap: 20px;
     }
 
     /* logo */
@@ -774,7 +780,7 @@ input::-webkit-search-cancel-button{
     /* guided tour */
     #guided_tour_top{
         display: grid;
-        grid-template-columns: repeat(1fr, 1fr, 1.3fr);
+        grid-template-columns: 1fr 1fr 1.3fr;
         column-gap: 24px;
         align-items: start;
     }
