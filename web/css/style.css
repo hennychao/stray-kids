@@ -872,9 +872,6 @@ input::-webkit-search-cancel-button{
     }
 
     /* menu */
-    #menu{
-        transform: translateX(20px) translateY(0);
-    }
     .menu_svg{
         width: 20px;
         height: 20px;
