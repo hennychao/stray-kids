@@ -686,14 +686,27 @@ input::-webkit-search-cancel-button{
 }
 
 @media(max-width: 991px){
-    
-    /* menu */
+    /* layout */
     #menu{
-        transform: translateX(15px) translateY(0px);
+        transform: translateX(8px) translateY(0px);
     }
+    #top{
+        padding: 0 40px;
+    }
+    #head{
+        padding: 0 40px;
+    }
+    #contenter{
+        padding: 0 40px;
+    }
+    #foot{
+        padding: 0 40px;
+    }
+
+    /* menu */
     .menu_svg{
-        width: 25px;
-        height: 25px;
+        width: 23px;
+        height: 23px;
     }
 
     /* button */
